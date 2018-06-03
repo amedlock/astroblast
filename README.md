@@ -8,4 +8,4 @@ Enter toggles autofire
 F10 quits
 F4 adds 400 points (used in testing)
 
-![SS](ss1.png)
+![SS](ss.png)
