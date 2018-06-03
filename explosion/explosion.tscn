@@ -1,0 +1,32 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://explosion/explosion.gd" type="Script" id=1]
+[ext_resource path="res://explosion/explosion.png" type="Texture" id=2]
+[ext_resource path="res://explosion/expl_anim.tres" type="Animation" id=3]
+
+[node name="explosion" type="Node2D"]
+
+script = ExtResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="." index="0"]
+
+modulate = Color( 0.707031, 0.118759, 0.118759, 1 )
+rotation = 2.0944
+z_index = -1
+texture = ExtResource( 2 )
+hframes = 3
+frame = 2
+_sections_unfolded = [ "Animation", "Offset", "Transform", "Visibility", "Z Index" ]
+
+[node name="animation" type="AnimationPlayer" parent="." index="1"]
+
+root_node = NodePath("..")
+autoplay = ""
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 1.0
+anims/explode = ExtResource( 3 )
+blend_times = [  ]
+_sections_unfolded = [ "Playback Options" ]
+
+

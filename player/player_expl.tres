@@ -1,0 +1,81 @@
+[gd_resource type="Animation" format=2]
+
+[resource]
+
+resource_name = "explode"
+length = 1.5
+loop = false
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath("gear1:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.6, 1.1, 1.2 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 2, -2 ), Vector2( 15.2428, -18.8027 ), Vector2( 24.1949, -4.99097 ), Vector2( 27.2642, -1.83644 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("gear1:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.6, 1.2 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ 0.0, 22.0, 50.0 ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("gear2:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.6, 1.1, 1.2 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( -2, -2 ), Vector2( -14.6732, -18.3755 ), Vector2( -27.8882, -8.74141 ), Vector2( -32.4068, -1.83554 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("gear2:rotation_degrees")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.6, 1.2 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ 20.0, 48.0, 98.0 ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("gear3:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 0.6, 1.1, 1.2 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0.766258, -2.75179 ), Vector2( 6.99007, -17.9277 ), Vector2( 11.8498, -8.80509 ), Vector2( 14.1517, -1.89921 ) ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("gear4:position")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0, 0.6, 1.1, 1.2 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( -0.185966, -4.23199 ), Vector2( -5.21617, -17.9585 ), Vector2( -12.2926, -5.68137 ), Vector2( -12.8041, -1.84477 ) ]
+}
+

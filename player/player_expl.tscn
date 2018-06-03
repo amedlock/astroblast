@@ -1,0 +1,73 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://player/player_expl.gd" type="Script" id=1]
+[ext_resource path="res://player/gears.png" type="Texture" id=2]
+[ext_resource path="res://player/player_expl.tres" type="Animation" id=3]
+[ext_resource path="res://sounds/explosion.wav" type="AudioStream" id=4]
+
+[node name="player_expl" type="Node2D"]
+
+position = Vector2( 394.608, 337.615 )
+scale = Vector2( 8, 8 )
+z_index = 2
+script = ExtResource( 1 )
+_sections_unfolded = [ "Transform", "Z Index" ]
+
+[node name="gear1" type="Sprite" parent="." index="0"]
+
+position = Vector2( 2, -2 )
+scale = Vector2( 0.45, 0.45 )
+texture = ExtResource( 2 )
+hframes = 4
+_sections_unfolded = [ "Animation", "Transform" ]
+
+[node name="gear2" type="Sprite" parent="." index="1"]
+
+position = Vector2( -2, -2 )
+rotation = 0.349066
+scale = Vector2( 0.35, 0.35 )
+texture = ExtResource( 2 )
+hframes = 4
+frame = 1
+_sections_unfolded = [ "Animation", "Transform" ]
+
+[node name="gear3" type="Sprite" parent="." index="2"]
+
+position = Vector2( 0.766258, -2.75179 )
+rotation = 0.349066
+scale = Vector2( 0.35, 0.35 )
+texture = ExtResource( 2 )
+hframes = 4
+frame = 3
+_sections_unfolded = [ "Animation", "Transform" ]
+
+[node name="gear4" type="Sprite" parent="." index="3"]
+
+position = Vector2( -0.185966, -4.23199 )
+rotation = 0.349066
+scale = Vector2( 0.35, 0.35 )
+texture = ExtResource( 2 )
+hframes = 4
+_sections_unfolded = [ "Animation", "Transform" ]
+
+[node name="animation" type="AnimationPlayer" parent="." index="4"]
+
+root_node = NodePath("..")
+autoplay = ""
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 1.0
+anims/explode = ExtResource( 3 )
+blend_times = [  ]
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="." index="5"]
+
+stream = ExtResource( 4 )
+volume_db = 0.0
+autoplay = true
+max_distance = 2000.0
+attenuation = 1.0
+bus = "Master"
+area_mask = 1
+
+
