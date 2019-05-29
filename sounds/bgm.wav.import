@@ -7,10 +7,7 @@ path="res://.import/bgm.wav-f0cf30e95c49e2b211f53daab6215dcb.sample"
 [deps]
 
 source_file="res://sounds/bgm.wav"
-source_md5="add271b811ef619c15463dc774735097"
-
 dest_files=[ "res://.import/bgm.wav-f0cf30e95c49e2b211f53daab6215dcb.sample" ]
-dest_md5="d7ceaabe96f76346cd29911d4c3a437d"
 
 [params]
 

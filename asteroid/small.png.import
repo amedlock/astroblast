@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/small.png-7d28d43ffd42659124b93d98029821c2.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://asteroid/small.png"
-source_md5="09ac7798858c9b6cd0eec74e5c73bbe4"
-
 dest_files=[ "res://.import/small.png-7d28d43ffd42659124b93d98029821c2.stex" ]
-dest_md5="19e8417764978be060c0960792654556"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

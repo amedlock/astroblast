@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/gears.png-4e7cd216ea1f2098303953f6e6678b81.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://player/gears.png"
-source_md5="50b0164b22bd3c792efd036d8ad2f59f"
-
 dest_files=[ "res://.import/gears.png-4e7cd216ea1f2098303953f6e6678b81.stex" ]
-dest_md5="2e9c23e04250a8c8d7cbf690e743cc7b"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=false
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/bomb.png-0a65f0df075f22dc2ba604866b59fde5.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://enemies/ufo/bomb.png"
-source_md5="146b2d167e75af760bdf7d09dce4116c"
-
 dest_files=[ "res://.import/bomb.png-0a65f0df075f22dc2ba604866b59fde5.stex" ]
-dest_md5="3ec919f8df51e34e5437e0df008b6141"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=false
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

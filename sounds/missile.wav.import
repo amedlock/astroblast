@@ -7,10 +7,7 @@ path="res://.import/missile.wav-1fb8b7a03f647ceb0c0fea9579c6c2b1.sample"
 [deps]
 
 source_file="res://sounds/missile.wav"
-source_md5="afe28a9939f9bb1cb9bd1dd3f15eeb72"
-
 dest_files=[ "res://.import/missile.wav-1fb8b7a03f647ceb0c0fea9579c6c2b1.sample" ]
-dest_md5="dc50c890d81927c33d1d99ccfa1fc22b"
 
 [params]
 
